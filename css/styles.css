@@ -1,6 +1,14 @@
+@import url('sharpie.css');
+
 /* My Styles */
-h1{
-font-family: "Rubik Glitch";
+body{
+    font-family: 'Sharpie-Regular';
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+
 }
 
 img{
