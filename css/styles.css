@@ -2,7 +2,7 @@
 
 /* My Styles */
 body{
-    font-family: 'GeneralSans-Extralight';
+    font-family: 'GeneralSans-Regular';
 
     display: grid;
     display: flex;
@@ -11,24 +11,41 @@ body{
     align-items: center;
     height: 100vh;
 
+    background-color: rgb(32, 32, 32);
+    color: rgb(234, 255, 255);
+
 
 }
 
 h1{
     font-family: 'GeneralSans-Regular';
+    color: rgb(234, 255, 255);
+}
+
+.thin {
+    font-family: 'GeneralSans-Extralight';
+    color: rgb(0, 255, 255);
+
 }
 
 img{
-    height: 30em;
+    height: 20em;
+    border-radius: 5em;
 }
 
 nav {
     width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 p {
-    width: 50%;
+    width: 40%;
+}
+
+a {
+    font-family: 'GeneralSans-Regular';
+    color: rgb(138, 43, 226);
 }
